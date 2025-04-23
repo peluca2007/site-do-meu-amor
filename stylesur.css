@@ -1,0 +1,149 @@
+/* Estilo geral */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffe6e6; /* Fundo rosa claro */
+    color: #4d0000; /* Texto em tom vinho */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    padding: 20px;
+    text-align: center;
+    background-color: #ff9999; /* Rosa suave */
+    color: #4d0000; /* Texto vinho */
+    font-size: 28px;
+    font-weight: bold;
+    border-bottom: 3px solid #ff4d4d; /* Linha decorativa em vermelho */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra leve */
+}
+
+/* Seção principal */
+section {
+    padding: 50px;
+    background: linear-gradient(135deg, #ffcccc, #ff9999); /* Gradiente rosa */
+    color: #4d0000; /* Texto vinho */
+    text-align: center;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra suave */
+    max-width: 800px; /* Limita a largura */
+}
+
+/* Estilo para #diahj */
+#diahj {
+    background-color: #ffb3b3; /* Rosa claro */
+    font-size: 22px;
+    color: #4d0000; /* Texto vinho */
+    text-align: center;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Sombra leve */
+    max-width: 600px; /* Limita a largura */
+    font-style: italic; /* Texto em itálico */
+}
+
+/* Estilo para #tempojuntos */
+#tempojuntos {
+    font-size: 24px;
+    color: #4d0000; /* Texto vinho */
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background: linear-gradient(45deg, #ff9999, #ff4d4d); /* Gradiente rosa-avermelhado */
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra mais destacada */
+    font-family: 'Georgia', serif; /* Fonte elegante */
+    font-weight: bold;
+    border: 2px solid #ff4d4d; /* Borda vermelha */
+}
+
+/* Contêiner para botões */
+#botoes-container {
+    display: flex; /* Ativa o Flexbox */
+    flex-wrap: wrap; /* Permite quebra de linha */
+    justify-content: center; /* Centraliza os botões */
+    gap: 15px; /* Espaçamento entre os botões */
+    margin-top: 20px;
+}
+
+/* Estilo para botões */
+button {
+    font-size: 18px;
+    color: #ffffff;
+    background: linear-gradient(45deg, #ff4d4d, #ff9999); /* Gradiente vermelho-rosa */
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
+
+button:hover {
+    background: linear-gradient(45deg, #ff9999, #ff4d4d); /* Inverte o gradiente no hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05); /* Aumenta levemente o botão */
+}
+
+button:active {
+    transform: scale(0.95); /* Reduz levemente o botão ao clicar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para o botão #teamo */
+#teamo {
+    font-size: 22px; /* Tamanho da fonte */
+    color: #ffffff; /* Cor do texto */
+    background: linear-gradient(45deg, #ff0000, #cc0000); /* Gradiente vermelho forte */
+    border: none; /* Remove a borda padrão */
+    border-radius: 20px; /* Bordas arredondadas */
+    padding: 20px 40px; /* Espaçamento interno */
+    cursor: pointer; /* Mostra o cursor de clique */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Sombra suave */
+    transition: all 0.3s ease; /* Transição suave para hover e clique */
+    font-family: 'Arial', sans-serif; /* Fonte padrão */
+    font-weight: bold; /* Texto em negrito */
+    text-transform: uppercase; /* Texto em maiúsculas */
+    letter-spacing: 1.5px; /* Espaçamento entre letras */
+    margin-top: 30px; /* Adiciona espaçamento superior */
+}
+
+#teamo:hover {
+    background: linear-gradient(45deg, #cc0000, #ff0000); /* Inverte o gradiente no hover */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4); /* Aumenta a sombra no hover */
+    transform: scale(1.1); /* Aumenta levemente o botão */
+}
+
+#teamo:active {
+    transform: scale(0.95); /* Reduz levemente o botão ao clicar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Reduz a sombra ao clicar */
+}
+
+/* Rodapé */
+footer {
+    padding: 15px;
+    text-align: center;
+    background-color: #ff9999; /* Rosa suave */
+    color: #4d0000; /* Texto vinho */
+    font-size: 16px;
+    border-top: 3px solid #ff4d4d; /* Linha decorativa */
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2); /* Sombra leve no topo */
+}
+
+/* Links */
+a {
+    color: #ff4d4d; /* Vermelho apaixonado */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ff1a1a; /* Vermelho mais intenso ao passar o mouse */
+    text-decoration: underline;
+}
